@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB29081151C2AD400747711 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB29080151C2AD400747711 /* UIKit.framework */; };
+		CAB29083151C2AD400747711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB29082151C2AD400747711 /* Foundation.framework */; };
+		CAB29085151C2AD400747711 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB29084151C2AD400747711 /* CoreGraphics.framework */; };
+		CAB2908B151C2AD400747711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAB29089151C2AD400747711 /* InfoPlist.strings */; };
+		CAB2908D151C2AD400747711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB2908C151C2AD400747711 /* main.m */; };
+		CAB29091151C2AD400747711 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB29090151C2AD400747711 /* AppDelegate.m */; };
+		CAB29094151C2AD400747711 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB29093151C2AD400747711 /* ViewController.m */; };
+		CAB29097151C2AD400747711 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB29095151C2AD400747711 /* ViewController.xib */; };
+		CAB2909F151C2B5200747711 /* GragView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB2909E151C2B5200747711 /* GragView.m */; };
+		CAB290A1151C396900747711 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB290A0151C396900747711 /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAB2907C151C2AD400747711 /* GragView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GragView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB29080151C2AD400747711 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAB29082151C2AD400747711 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAB29084151C2AD400747711 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAB29088151C2AD400747711 /* GragView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GragView-Info.plist"; sourceTree = "<group>"; };
+		CAB2908A151C2AD400747711 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAB2908C151C2AD400747711 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAB2908E151C2AD400747711 /* GragView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GragView-Prefix.pch"; sourceTree = "<group>"; };
+		CAB2908F151C2AD400747711 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAB29090151C2AD400747711 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAB29092151C2AD400747711 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAB29093151C2AD400747711 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAB29096151C2AD400747711 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CAB2909D151C2B5200747711 /* GragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GragView.h; sourceTree = SOURCE_ROOT; };
+		CAB2909E151C2B5200747711 /* GragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GragView.m; sourceTree = SOURCE_ROOT; };
+		CAB290A0151C396900747711 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB29079151C2AD400747711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB29081151C2AD400747711 /* UIKit.framework in Frameworks */,
+				CAB29083151C2AD400747711 /* Foundation.framework in Frameworks */,
+				CAB29085151C2AD400747711 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB29071151C2AD400747711 = {
+			isa = PBXGroup;
+			children = (
+				CAB29086151C2AD400747711 /* GragView */,
+				CAB2907F151C2AD400747711 /* Frameworks */,
+				CAB2907D151C2AD400747711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB2907D151C2AD400747711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB2907C151C2AD400747711 /* GragView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB2907F151C2AD400747711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAB29080151C2AD400747711 /* UIKit.framework */,
+				CAB29082151C2AD400747711 /* Foundation.framework */,
+				CAB29084151C2AD400747711 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB29086151C2AD400747711 /* GragView */ = {
+			isa = PBXGroup;
+			children = (
+				CAB2909D151C2B5200747711 /* GragView.h */,
+				CAB2909E151C2B5200747711 /* GragView.m */,
+				CAB2908F151C2AD400747711 /* AppDelegate.h */,
+				CAB29090151C2AD400747711 /* AppDelegate.m */,
+				CAB29092151C2AD400747711 /* ViewController.h */,
+				CAB29093151C2AD400747711 /* ViewController.m */,
+				CAB29095151C2AD400747711 /* ViewController.xib */,
+				CAB29087151C2AD400747711 /* Supporting Files */,
+			);
+			path = GragView;
+			sourceTree = "<group>";
+		};
+		CAB29087151C2AD400747711 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAB290A0151C396900747711 /* 1.png */,
+				CAB29088151C2AD400747711 /* GragView-Info.plist */,
+				CAB29089151C2AD400747711 /* InfoPlist.strings */,
+				CAB2908C151C2AD400747711 /* main.m */,
+				CAB2908E151C2AD400747711 /* GragView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB2907B151C2AD400747711 /* GragView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB2909A151C2AD400747711 /* Build configuration list for PBXNativeTarget "GragView" */;
+			buildPhases = (
+				CAB29078151C2AD400747711 /* Sources */,
+				CAB29079151C2AD400747711 /* Frameworks */,
+				CAB2907A151C2AD400747711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GragView;
+			productName = GragView;
+			productReference = CAB2907C151C2AD400747711 /* GragView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB29073151C2AD400747711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CAB29076151C2AD400747711 /* Build configuration list for PBXProject "GragView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAB29071151C2AD400747711;
+			productRefGroup = CAB2907D151C2AD400747711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB2907B151C2AD400747711 /* GragView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB2907A151C2AD400747711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB2908B151C2AD400747711 /* InfoPlist.strings in Resources */,
+				CAB29097151C2AD400747711 /* ViewController.xib in Resources */,
+				CAB290A1151C396900747711 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB29078151C2AD400747711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB2908D151C2AD400747711 /* main.m in Sources */,
+				CAB29091151C2AD400747711 /* AppDelegate.m in Sources */,
+				CAB29094151C2AD400747711 /* ViewController.m in Sources */,
+				CAB2909F151C2B5200747711 /* GragView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAB29089151C2AD400747711 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB2908A151C2AD400747711 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAB29095151C2AD400747711 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB29096151C2AD400747711 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB29098151C2AD400747711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAB29099151C2AD400747711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB2909B151C2AD400747711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GragView/GragView-Prefix.pch";
+				INFOPLIST_FILE = "GragView/GragView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAB2909C151C2AD400747711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GragView/GragView-Prefix.pch";
+				INFOPLIST_FILE = "GragView/GragView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB29076151C2AD400747711 /* Build configuration list for PBXProject "GragView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB29098151C2AD400747711 /* Debug */,
+				CAB29099151C2AD400747711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB2909A151C2AD400747711 /* Build configuration list for PBXNativeTarget "GragView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB2909B151C2AD400747711 /* Debug */,
+				CAB2909C151C2AD400747711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB29073151C2AD400747711 /* Project object */;
+}

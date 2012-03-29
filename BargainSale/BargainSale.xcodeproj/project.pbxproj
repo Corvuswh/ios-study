@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA066B0314FC77DE0099FDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA066B0214FC77DE0099FDC2 /* UIKit.framework */; };
+		CA066B0514FC77DE0099FDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA066B0414FC77DE0099FDC2 /* Foundation.framework */; };
+		CA066B0714FC77DE0099FDC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA066B0614FC77DE0099FDC2 /* CoreGraphics.framework */; };
+		CA066B0D14FC77DE0099FDC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA066B0B14FC77DE0099FDC2 /* InfoPlist.strings */; };
+		CA066B0F14FC77DE0099FDC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA066B0E14FC77DE0099FDC2 /* main.m */; };
+		CA066B1314FC77DE0099FDC2 /* BargainSaleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA066B1214FC77DE0099FDC2 /* BargainSaleAppDelegate.m */; };
+		CA066B1614FC77DE0099FDC2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA066B1414FC77DE0099FDC2 /* MainWindow.xib */; };
+		CA066B1D14FC77F80099FDC2 /* 3d.png in Resources */ = {isa = PBXBuildFile; fileRef = CA066B1C14FC77F80099FDC2 /* 3d.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA066AFE14FC77DE0099FDC2 /* BargainSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BargainSale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA066B0214FC77DE0099FDC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA066B0414FC77DE0099FDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA066B0614FC77DE0099FDC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA066B0A14FC77DE0099FDC2 /* BargainSale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BargainSale-Info.plist"; sourceTree = "<group>"; };
+		CA066B0C14FC77DE0099FDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA066B0E14FC77DE0099FDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA066B1014FC77DE0099FDC2 /* BargainSale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BargainSale-Prefix.pch"; sourceTree = "<group>"; };
+		CA066B1114FC77DE0099FDC2 /* BargainSaleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BargainSaleAppDelegate.h; sourceTree = "<group>"; };
+		CA066B1214FC77DE0099FDC2 /* BargainSaleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BargainSaleAppDelegate.m; sourceTree = "<group>"; };
+		CA066B1514FC77DE0099FDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CA066B1C14FC77F80099FDC2 /* 3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA066AFB14FC77DE0099FDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA066B0314FC77DE0099FDC2 /* UIKit.framework in Frameworks */,
+				CA066B0514FC77DE0099FDC2 /* Foundation.framework in Frameworks */,
+				CA066B0714FC77DE0099FDC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA066AF314FC77DE0099FDC2 = {
+			isa = PBXGroup;
+			children = (
+				CA066B1C14FC77F80099FDC2 /* 3d.png */,
+				CA066B0814FC77DE0099FDC2 /* BargainSale */,
+				CA066B0114FC77DE0099FDC2 /* Frameworks */,
+				CA066AFF14FC77DE0099FDC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA066AFF14FC77DE0099FDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA066AFE14FC77DE0099FDC2 /* BargainSale.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA066B0114FC77DE0099FDC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA066B0214FC77DE0099FDC2 /* UIKit.framework */,
+				CA066B0414FC77DE0099FDC2 /* Foundation.framework */,
+				CA066B0614FC77DE0099FDC2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA066B0814FC77DE0099FDC2 /* BargainSale */ = {
+			isa = PBXGroup;
+			children = (
+				CA066B1114FC77DE0099FDC2 /* BargainSaleAppDelegate.h */,
+				CA066B1214FC77DE0099FDC2 /* BargainSaleAppDelegate.m */,
+				CA066B1414FC77DE0099FDC2 /* MainWindow.xib */,
+				CA066B0914FC77DE0099FDC2 /* Supporting Files */,
+			);
+			path = BargainSale;
+			sourceTree = "<group>";
+		};
+		CA066B0914FC77DE0099FDC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA066B0A14FC77DE0099FDC2 /* BargainSale-Info.plist */,
+				CA066B0B14FC77DE0099FDC2 /* InfoPlist.strings */,
+				CA066B0E14FC77DE0099FDC2 /* main.m */,
+				CA066B1014FC77DE0099FDC2 /* BargainSale-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA066AFD14FC77DE0099FDC2 /* BargainSale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA066B1914FC77DE0099FDC2 /* Build configuration list for PBXNativeTarget "BargainSale" */;
+			buildPhases = (
+				CA066AFA14FC77DE0099FDC2 /* Sources */,
+				CA066AFB14FC77DE0099FDC2 /* Frameworks */,
+				CA066AFC14FC77DE0099FDC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BargainSale;
+			productName = BargainSale;
+			productReference = CA066AFE14FC77DE0099FDC2 /* BargainSale.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA066AF514FC77DE0099FDC2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CA066AF814FC77DE0099FDC2 /* Build configuration list for PBXProject "BargainSale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA066AF314FC77DE0099FDC2;
+			productRefGroup = CA066AFF14FC77DE0099FDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA066AFD14FC77DE0099FDC2 /* BargainSale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA066AFC14FC77DE0099FDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA066B0D14FC77DE0099FDC2 /* InfoPlist.strings in Resources */,
+				CA066B1614FC77DE0099FDC2 /* MainWindow.xib in Resources */,
+				CA066B1D14FC77F80099FDC2 /* 3d.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA066AFA14FC77DE0099FDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA066B0F14FC77DE0099FDC2 /* main.m in Sources */,
+				CA066B1314FC77DE0099FDC2 /* BargainSaleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA066B0B14FC77DE0099FDC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA066B0C14FC77DE0099FDC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA066B1414FC77DE0099FDC2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA066B1514FC77DE0099FDC2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA066B1714FC77DE0099FDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA066B1814FC77DE0099FDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA066B1A14FC77DE0099FDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BargainSale/BargainSale-Prefix.pch";
+				INFOPLIST_FILE = "BargainSale/BargainSale-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA066B1B14FC77DE0099FDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BargainSale/BargainSale-Prefix.pch";
+				INFOPLIST_FILE = "BargainSale/BargainSale-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA066AF814FC77DE0099FDC2 /* Build configuration list for PBXProject "BargainSale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA066B1714FC77DE0099FDC2 /* Debug */,
+				CA066B1814FC77DE0099FDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA066B1914FC77DE0099FDC2 /* Build configuration list for PBXNativeTarget "BargainSale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA066B1A14FC77DE0099FDC2 /* Debug */,
+				CA066B1B14FC77DE0099FDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA066AF514FC77DE0099FDC2 /* Project object */;
+}

@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA52C62F15186823007BF75E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA52C62E15186823007BF75E /* UIKit.framework */; };
+		CA52C63115186823007BF75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA52C63015186823007BF75E /* Foundation.framework */; };
+		CA52C63315186823007BF75E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA52C63215186823007BF75E /* CoreGraphics.framework */; };
+		CA52C63915186823007BF75E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA52C63715186823007BF75E /* InfoPlist.strings */; };
+		CA52C63B15186823007BF75E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C63A15186823007BF75E /* main.m */; };
+		CA52C63F15186823007BF75E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C63E15186823007BF75E /* AppDelegate.m */; };
+		CA52C64215186823007BF75E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C64115186823007BF75E /* FirstViewController.m */; };
+		CA52C64415186823007BF75E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C64315186823007BF75E /* first.png */; };
+		CA52C64615186824007BF75E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C64515186824007BF75E /* first@2x.png */; };
+		CA52C64915186824007BF75E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C64815186824007BF75E /* SecondViewController.m */; };
+		CA52C64B15186824007BF75E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C64A15186824007BF75E /* second.png */; };
+		CA52C64D15186824007BF75E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C64C15186824007BF75E /* second@2x.png */; };
+		CA52C65015186824007BF75E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA52C64E15186824007BF75E /* FirstViewController.xib */; };
+		CA52C65315186824007BF75E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA52C65115186824007BF75E /* SecondViewController.xib */; };
+		CA52C65C15186B6C007BF75E /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C65915186B6C007BF75E /* third.png */; };
+		CA52C65D15186B6C007BF75E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C65B15186B6C007BF75E /* ThirdViewController.m */; };
+		CA52C66015186F3C007BF75E /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA52C65E15186F3C007BF75E /* ThirdViewController.xib */; };
+		CA52C66215187265007BF75E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA52C66115187265007BF75E /* 4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA52C62A15186823007BF75E /* Try.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA52C62E15186823007BF75E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA52C63015186823007BF75E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA52C63215186823007BF75E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA52C63615186823007BF75E /* Try-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Try-Info.plist"; sourceTree = "<group>"; };
+		CA52C63815186823007BF75E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA52C63A15186823007BF75E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA52C63C15186823007BF75E /* Try-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Try-Prefix.pch"; sourceTree = "<group>"; };
+		CA52C63D15186823007BF75E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA52C63E15186823007BF75E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA52C64015186823007BF75E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CA52C64115186823007BF75E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CA52C64315186823007BF75E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CA52C64515186824007BF75E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CA52C64715186824007BF75E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CA52C64815186824007BF75E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CA52C64A15186824007BF75E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CA52C64C15186824007BF75E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CA52C64F15186824007BF75E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		CA52C65215186824007BF75E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		CA52C65915186B6C007BF75E /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
+		CA52C65A15186B6C007BF75E /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CA52C65B15186B6C007BF75E /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CA52C65F15186F3C007BF75E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Try/en.lproj/ThirdViewController.xib; sourceTree = "<group>"; };
+		CA52C66115187265007BF75E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA52C62715186823007BF75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52C62F15186823007BF75E /* UIKit.framework in Frameworks */,
+				CA52C63115186823007BF75E /* Foundation.framework in Frameworks */,
+				CA52C63315186823007BF75E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA52C61F15186823007BF75E = {
+			isa = PBXGroup;
+			children = (
+				CA52C63415186823007BF75E /* Try */,
+				CA52C62D15186823007BF75E /* Frameworks */,
+				CA52C62B15186823007BF75E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA52C62B15186823007BF75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C62A15186823007BF75E /* Try.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA52C62D15186823007BF75E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C62E15186823007BF75E /* UIKit.framework */,
+				CA52C63015186823007BF75E /* Foundation.framework */,
+				CA52C63215186823007BF75E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA52C63415186823007BF75E /* Try */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C65915186B6C007BF75E /* third.png */,
+				CA52C65A15186B6C007BF75E /* ThirdViewController.h */,
+				CA52C65B15186B6C007BF75E /* ThirdViewController.m */,
+				CA52C63D15186823007BF75E /* AppDelegate.h */,
+				CA52C63E15186823007BF75E /* AppDelegate.m */,
+				CA52C64015186823007BF75E /* FirstViewController.h */,
+				CA52C64115186823007BF75E /* FirstViewController.m */,
+				CA52C64315186823007BF75E /* first.png */,
+				CA52C64515186824007BF75E /* first@2x.png */,
+				CA52C64715186824007BF75E /* SecondViewController.h */,
+				CA52C64815186824007BF75E /* SecondViewController.m */,
+				CA52C64A15186824007BF75E /* second.png */,
+				CA52C64C15186824007BF75E /* second@2x.png */,
+				CA52C64E15186824007BF75E /* FirstViewController.xib */,
+				CA52C65115186824007BF75E /* SecondViewController.xib */,
+				CA52C65E15186F3C007BF75E /* ThirdViewController.xib */,
+				CA52C63515186823007BF75E /* Supporting Files */,
+			);
+			path = Try;
+			sourceTree = "<group>";
+		};
+		CA52C63515186823007BF75E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C66115187265007BF75E /* 4.jpg */,
+				CA52C63615186823007BF75E /* Try-Info.plist */,
+				CA52C63715186823007BF75E /* InfoPlist.strings */,
+				CA52C63A15186823007BF75E /* main.m */,
+				CA52C63C15186823007BF75E /* Try-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA52C62915186823007BF75E /* Try */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA52C65615186824007BF75E /* Build configuration list for PBXNativeTarget "Try" */;
+			buildPhases = (
+				CA52C62615186823007BF75E /* Sources */,
+				CA52C62715186823007BF75E /* Frameworks */,
+				CA52C62815186823007BF75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try;
+			productName = Try;
+			productReference = CA52C62A15186823007BF75E /* Try.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA52C62115186823007BF75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CA52C62415186823007BF75E /* Build configuration list for PBXProject "Try" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA52C61F15186823007BF75E;
+			productRefGroup = CA52C62B15186823007BF75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA52C62915186823007BF75E /* Try */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA52C62815186823007BF75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52C63915186823007BF75E /* InfoPlist.strings in Resources */,
+				CA52C64415186823007BF75E /* first.png in Resources */,
+				CA52C64615186824007BF75E /* first@2x.png in Resources */,
+				CA52C64B15186824007BF75E /* second.png in Resources */,
+				CA52C64D15186824007BF75E /* second@2x.png in Resources */,
+				CA52C65015186824007BF75E /* FirstViewController.xib in Resources */,
+				CA52C65315186824007BF75E /* SecondViewController.xib in Resources */,
+				CA52C65C15186B6C007BF75E /* third.png in Resources */,
+				CA52C66015186F3C007BF75E /* ThirdViewController.xib in Resources */,
+				CA52C66215187265007BF75E /* 4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA52C62615186823007BF75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52C63B15186823007BF75E /* main.m in Sources */,
+				CA52C63F15186823007BF75E /* AppDelegate.m in Sources */,
+				CA52C64215186823007BF75E /* FirstViewController.m in Sources */,
+				CA52C64915186824007BF75E /* SecondViewController.m in Sources */,
+				CA52C65D15186B6C007BF75E /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA52C63715186823007BF75E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA52C63815186823007BF75E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA52C64E15186824007BF75E /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA52C64F15186824007BF75E /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		CA52C65115186824007BF75E /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA52C65215186824007BF75E /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		CA52C65E15186F3C007BF75E /* ThirdViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA52C65F15186F3C007BF75E /* en */,
+			);
+			name = ThirdViewController.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA52C65415186824007BF75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA52C65515186824007BF75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA52C65715186824007BF75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Try/Try-Prefix.pch";
+				INFOPLIST_FILE = "Try/Try-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA52C65815186824007BF75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Try/Try-Prefix.pch";
+				INFOPLIST_FILE = "Try/Try-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA52C62415186823007BF75E /* Build configuration list for PBXProject "Try" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52C65415186824007BF75E /* Debug */,
+				CA52C65515186824007BF75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA52C65615186824007BF75E /* Build configuration list for PBXNativeTarget "Try" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52C65715186824007BF75E /* Debug */,
+				CA52C65815186824007BF75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA52C62115186823007BF75E /* Project object */;
+}

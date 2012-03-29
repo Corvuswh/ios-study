@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0E85F0151194E0004ADA7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E85EF151194E0004ADA7C /* UIKit.framework */; };
+		CA0E85F2151194E0004ADA7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E85F1151194E0004ADA7C /* Foundation.framework */; };
+		CA0E85F4151194E0004ADA7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E85F3151194E0004ADA7C /* CoreGraphics.framework */; };
+		CA0E85FA151194E0004ADA7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0E85F8151194E0004ADA7C /* InfoPlist.strings */; };
+		CA0E85FC151194E0004ADA7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E85FB151194E0004ADA7C /* main.m */; };
+		CA0E8600151194E0004ADA7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E85FF151194E0004ADA7C /* AppDelegate.m */; };
+		CA0E8603151194E0004ADA7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E8602151194E0004ADA7C /* ViewController.m */; };
+		CA0E8606151194E0004ADA7C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0E8604151194E0004ADA7C /* ViewController.xib */; };
+		CA0E862D1511DFC2004ADA7C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0E862A1511DFC2004ADA7C /* 1.png */; };
+		CA0E862E1511DFC2004ADA7C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0E862B1511DFC2004ADA7C /* 2.png */; };
+		CA0E862F1511DFC2004ADA7C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0E862C1511DFC2004ADA7C /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0E85EB151194E0004ADA7C /* ARC-tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARC-tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0E85EF151194E0004ADA7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA0E85F1151194E0004ADA7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA0E85F3151194E0004ADA7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA0E85F7151194E0004ADA7C /* ARC-tableview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARC-tableview-Info.plist"; sourceTree = "<group>"; };
+		CA0E85F9151194E0004ADA7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0E85FB151194E0004ADA7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0E85FD151194E0004ADA7C /* ARC-tableview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARC-tableview-Prefix.pch"; sourceTree = "<group>"; };
+		CA0E85FE151194E0004ADA7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA0E85FF151194E0004ADA7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA0E8601151194E0004ADA7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA0E8602151194E0004ADA7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA0E8605151194E0004ADA7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CA0E862A1511DFC2004ADA7C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = SOURCE_ROOT; };
+		CA0E862B1511DFC2004ADA7C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = SOURCE_ROOT; };
+		CA0E862C1511DFC2004ADA7C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0E85E8151194E0004ADA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E85F0151194E0004ADA7C /* UIKit.framework in Frameworks */,
+				CA0E85F2151194E0004ADA7C /* Foundation.framework in Frameworks */,
+				CA0E85F4151194E0004ADA7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0E85E0151194E0004ADA7C = {
+			isa = PBXGroup;
+			children = (
+				CA0E85F5151194E0004ADA7C /* ARC-tableview */,
+				CA0E85EE151194E0004ADA7C /* Frameworks */,
+				CA0E85EC151194E0004ADA7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0E85EC151194E0004ADA7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E85EB151194E0004ADA7C /* ARC-tableview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0E85EE151194E0004ADA7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E85EF151194E0004ADA7C /* UIKit.framework */,
+				CA0E85F1151194E0004ADA7C /* Foundation.framework */,
+				CA0E85F3151194E0004ADA7C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0E85F5151194E0004ADA7C /* ARC-tableview */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E85FE151194E0004ADA7C /* AppDelegate.h */,
+				CA0E85FF151194E0004ADA7C /* AppDelegate.m */,
+				CA0E8601151194E0004ADA7C /* ViewController.h */,
+				CA0E8602151194E0004ADA7C /* ViewController.m */,
+				CA0E8604151194E0004ADA7C /* ViewController.xib */,
+				CA0E85F6151194E0004ADA7C /* Supporting Files */,
+			);
+			path = "ARC-tableview";
+			sourceTree = "<group>";
+		};
+		CA0E85F6151194E0004ADA7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E862A1511DFC2004ADA7C /* 1.png */,
+				CA0E862B1511DFC2004ADA7C /* 2.png */,
+				CA0E862C1511DFC2004ADA7C /* 3.png */,
+				CA0E85F7151194E0004ADA7C /* ARC-tableview-Info.plist */,
+				CA0E85F8151194E0004ADA7C /* InfoPlist.strings */,
+				CA0E85FB151194E0004ADA7C /* main.m */,
+				CA0E85FD151194E0004ADA7C /* ARC-tableview-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0E85EA151194E0004ADA7C /* ARC-tableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0E8609151194E0004ADA7C /* Build configuration list for PBXNativeTarget "ARC-tableview" */;
+			buildPhases = (
+				CA0E85E7151194E0004ADA7C /* Sources */,
+				CA0E85E8151194E0004ADA7C /* Frameworks */,
+				CA0E85E9151194E0004ADA7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARC-tableview";
+			productName = "ARC-tableview";
+			productReference = CA0E85EB151194E0004ADA7C /* ARC-tableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0E85E2151194E0004ADA7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CA0E85E5151194E0004ADA7C /* Build configuration list for PBXProject "ARC-tableview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA0E85E0151194E0004ADA7C;
+			productRefGroup = CA0E85EC151194E0004ADA7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0E85EA151194E0004ADA7C /* ARC-tableview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0E85E9151194E0004ADA7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E85FA151194E0004ADA7C /* InfoPlist.strings in Resources */,
+				CA0E8606151194E0004ADA7C /* ViewController.xib in Resources */,
+				CA0E862D1511DFC2004ADA7C /* 1.png in Resources */,
+				CA0E862E1511DFC2004ADA7C /* 2.png in Resources */,
+				CA0E862F1511DFC2004ADA7C /* 3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0E85E7151194E0004ADA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E85FC151194E0004ADA7C /* main.m in Sources */,
+				CA0E8600151194E0004ADA7C /* AppDelegate.m in Sources */,
+				CA0E8603151194E0004ADA7C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA0E85F8151194E0004ADA7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0E85F9151194E0004ADA7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA0E8604151194E0004ADA7C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0E8605151194E0004ADA7C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0E8607151194E0004ADA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA0E8608151194E0004ADA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0E860A151194E0004ADA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARC-tableview/ARC-tableview-Prefix.pch";
+				INFOPLIST_FILE = "ARC-tableview/ARC-tableview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA0E860B151194E0004ADA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARC-tableview/ARC-tableview-Prefix.pch";
+				INFOPLIST_FILE = "ARC-tableview/ARC-tableview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0E85E5151194E0004ADA7C /* Build configuration list for PBXProject "ARC-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0E8607151194E0004ADA7C /* Debug */,
+				CA0E8608151194E0004ADA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0E8609151194E0004ADA7C /* Build configuration list for PBXNativeTarget "ARC-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0E860A151194E0004ADA7C /* Debug */,
+				CA0E860B151194E0004ADA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0E85E2151194E0004ADA7C /* Project object */;
+}

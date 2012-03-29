@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA52C5EF1518674A007BF75E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA52C5EE1518674A007BF75E /* UIKit.framework */; };
+		CA52C5F11518674A007BF75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA52C5F01518674A007BF75E /* Foundation.framework */; };
+		CA52C5F31518674A007BF75E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA52C5F21518674A007BF75E /* CoreGraphics.framework */; };
+		CA52C5F91518674A007BF75E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA52C5F71518674A007BF75E /* InfoPlist.strings */; };
+		CA52C5FB1518674A007BF75E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C5FA1518674A007BF75E /* main.m */; };
+		CA52C5FF1518674A007BF75E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C5FE1518674A007BF75E /* AppDelegate.m */; };
+		CA52C6021518674A007BF75E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C6011518674A007BF75E /* FirstViewController.m */; };
+		CA52C6041518674A007BF75E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C6031518674A007BF75E /* first.png */; };
+		CA52C6061518674A007BF75E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C6051518674A007BF75E /* first@2x.png */; };
+		CA52C6091518674B007BF75E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52C6081518674B007BF75E /* SecondViewController.m */; };
+		CA52C60B1518674B007BF75E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C60A1518674B007BF75E /* second.png */; };
+		CA52C60D1518674B007BF75E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA52C60C1518674B007BF75E /* second@2x.png */; };
+		CA52C6101518674B007BF75E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA52C60E1518674B007BF75E /* FirstViewController.xib */; };
+		CA52C6131518674B007BF75E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA52C6111518674B007BF75E /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA52C5EA1518674A007BF75E /* Try2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA52C5EE1518674A007BF75E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA52C5F01518674A007BF75E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA52C5F21518674A007BF75E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA52C5F61518674A007BF75E /* Try2-Info.plist */ = {isa = PBXFileReference; path = "Try2-Info.plist"; sourceTree = "<group>"; };
+		CA52C5F81518674A007BF75E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA52C5FA1518674A007BF75E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA52C5FC1518674A007BF75E /* Try2-Prefix.pch */ = {isa = PBXFileReference; path = "Try2-Prefix.pch"; sourceTree = "<group>"; };
+		CA52C5FD1518674A007BF75E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA52C5FE1518674A007BF75E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA52C6001518674A007BF75E /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		CA52C6011518674A007BF75E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CA52C6031518674A007BF75E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CA52C6051518674A007BF75E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CA52C6071518674A007BF75E /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		CA52C6081518674B007BF75E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CA52C60A1518674B007BF75E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CA52C60C1518674B007BF75E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CA52C60F1518674B007BF75E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		CA52C6121518674B007BF75E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA52C5E71518674A007BF75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52C5EF1518674A007BF75E /* UIKit.framework in Frameworks */,
+				CA52C5F11518674A007BF75E /* Foundation.framework in Frameworks */,
+				CA52C5F31518674A007BF75E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA52C5DF1518674A007BF75E = {
+			isa = PBXGroup;
+			children = (
+				CA52C5F41518674A007BF75E /* Try2 */,
+				CA52C5ED1518674A007BF75E /* Frameworks */,
+				CA52C5EB1518674A007BF75E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA52C5EB1518674A007BF75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C5EA1518674A007BF75E /* Try2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA52C5ED1518674A007BF75E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C5EE1518674A007BF75E /* UIKit.framework */,
+				CA52C5F01518674A007BF75E /* Foundation.framework */,
+				CA52C5F21518674A007BF75E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA52C5F41518674A007BF75E /* Try2 */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C5FD1518674A007BF75E /* AppDelegate.h */,
+				CA52C5FE1518674A007BF75E /* AppDelegate.m */,
+				CA52C6001518674A007BF75E /* FirstViewController.h */,
+				CA52C6011518674A007BF75E /* FirstViewController.m */,
+				CA52C6031518674A007BF75E /* first.png */,
+				CA52C6051518674A007BF75E /* first@2x.png */,
+				CA52C6071518674A007BF75E /* SecondViewController.h */,
+				CA52C6081518674B007BF75E /* SecondViewController.m */,
+				CA52C60A1518674B007BF75E /* second.png */,
+				CA52C60C1518674B007BF75E /* second@2x.png */,
+				CA52C60E1518674B007BF75E /* FirstViewController.xib */,
+				CA52C6111518674B007BF75E /* SecondViewController.xib */,
+				CA52C5F51518674A007BF75E /* Supporting Files */,
+			);
+			path = Try2;
+			sourceTree = "<group>";
+		};
+		CA52C5F51518674A007BF75E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA52C5F61518674A007BF75E /* Try2-Info.plist */,
+				CA52C5F71518674A007BF75E /* InfoPlist.strings */,
+				CA52C5FA1518674A007BF75E /* main.m */,
+				CA52C5FC1518674A007BF75E /* Try2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA52C5E91518674A007BF75E /* Try2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA52C6161518674B007BF75E /* Build configuration list for PBXNativeTarget "Try2" */;
+			buildPhases = (
+				CA52C5E61518674A007BF75E /* Sources */,
+				CA52C5E71518674A007BF75E /* Frameworks */,
+				CA52C5E81518674A007BF75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try2;
+			productName = Try2;
+			productReference = CA52C5EA1518674A007BF75E /* Try2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA52C5E11518674A007BF75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CA52C5E41518674A007BF75E /* Build configuration list for PBXProject "Try2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA52C5DF1518674A007BF75E;
+			productRefGroup = CA52C5EB1518674A007BF75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA52C5E91518674A007BF75E /* Try2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA52C5E81518674A007BF75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52C5F91518674A007BF75E /* InfoPlist.strings in Resources */,
+				CA52C6041518674A007BF75E /* first.png in Resources */,
+				CA52C6061518674A007BF75E /* first@2x.png in Resources */,
+				CA52C60B1518674B007BF75E /* second.png in Resources */,
+				CA52C60D1518674B007BF75E /* second@2x.png in Resources */,
+				CA52C6101518674B007BF75E /* FirstViewController.xib in Resources */,
+				CA52C6131518674B007BF75E /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA52C5E61518674A007BF75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52C5FB1518674A007BF75E /* main.m in Sources */,
+				CA52C5FF1518674A007BF75E /* AppDelegate.m in Sources */,
+				CA52C6021518674A007BF75E /* FirstViewController.m in Sources */,
+				CA52C6091518674B007BF75E /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA52C5F71518674A007BF75E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA52C5F81518674A007BF75E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA52C60E1518674B007BF75E /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA52C60F1518674B007BF75E /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		CA52C6111518674B007BF75E /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA52C6121518674B007BF75E /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA52C6141518674B007BF75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA52C6151518674B007BF75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA52C6171518674B007BF75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Try2/Try2-Prefix.pch";
+				INFOPLIST_FILE = "Try2/Try2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA52C6181518674B007BF75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Try2/Try2-Prefix.pch";
+				INFOPLIST_FILE = "Try2/Try2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA52C5E41518674A007BF75E /* Build configuration list for PBXProject "Try2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52C6141518674B007BF75E /* Debug */,
+				CA52C6151518674B007BF75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA52C6161518674B007BF75E /* Build configuration list for PBXNativeTarget "Try2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52C6171518674B007BF75E /* Debug */,
+				CA52C6181518674B007BF75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA52C5E11518674A007BF75E /* Project object */;
+}

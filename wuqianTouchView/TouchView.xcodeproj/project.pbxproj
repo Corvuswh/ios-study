@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC80DD31522EC3C0075B5B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC80DD21522EC3C0075B5B1 /* UIKit.framework */; };
+		CAC80DD51522EC3C0075B5B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC80DD41522EC3C0075B5B1 /* Foundation.framework */; };
+		CAC80DD71522EC3C0075B5B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC80DD61522EC3C0075B5B1 /* CoreGraphics.framework */; };
+		CAC80DDD1522EC3C0075B5B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAC80DDB1522EC3C0075B5B1 /* InfoPlist.strings */; };
+		CAC80DDF1522EC3C0075B5B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80DDE1522EC3C0075B5B1 /* main.m */; };
+		CAC80DE31522EC3C0075B5B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80DE21522EC3C0075B5B1 /* AppDelegate.m */; };
+		CAC80DE61522EC3C0075B5B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80DE51522EC3C0075B5B1 /* ViewController.m */; };
+		CAC80DE91522EC3C0075B5B1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC80DE71522EC3C0075B5B1 /* ViewController.xib */; };
+		CAC80DF11522EC780075B5B1 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80DF01522EC780075B5B1 /* TouchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAC80DCE1522EC3C0075B5B1 /* TouchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC80DD21522EC3C0075B5B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAC80DD41522EC3C0075B5B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAC80DD61522EC3C0075B5B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAC80DDA1522EC3C0075B5B1 /* TouchView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchView-Info.plist"; sourceTree = "<group>"; };
+		CAC80DDC1522EC3C0075B5B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAC80DDE1522EC3C0075B5B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAC80DE01522EC3C0075B5B1 /* TouchView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchView-Prefix.pch"; sourceTree = "<group>"; };
+		CAC80DE11522EC3C0075B5B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAC80DE21522EC3C0075B5B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAC80DE41522EC3C0075B5B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAC80DE51522EC3C0075B5B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAC80DE81522EC3C0075B5B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CAC80DEF1522EC780075B5B1 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		CAC80DF01522EC780075B5B1 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC80DCB1522EC3C0075B5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC80DD31522EC3C0075B5B1 /* UIKit.framework in Frameworks */,
+				CAC80DD51522EC3C0075B5B1 /* Foundation.framework in Frameworks */,
+				CAC80DD71522EC3C0075B5B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC80DC31522EC3C0075B5B1 = {
+			isa = PBXGroup;
+			children = (
+				CAC80DD81522EC3C0075B5B1 /* TouchView */,
+				CAC80DD11522EC3C0075B5B1 /* Frameworks */,
+				CAC80DCF1522EC3C0075B5B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC80DCF1522EC3C0075B5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC80DCE1522EC3C0075B5B1 /* TouchView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC80DD11522EC3C0075B5B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAC80DD21522EC3C0075B5B1 /* UIKit.framework */,
+				CAC80DD41522EC3C0075B5B1 /* Foundation.framework */,
+				CAC80DD61522EC3C0075B5B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAC80DD81522EC3C0075B5B1 /* TouchView */ = {
+			isa = PBXGroup;
+			children = (
+				CAC80DEF1522EC780075B5B1 /* TouchView.h */,
+				CAC80DF01522EC780075B5B1 /* TouchView.m */,
+				CAC80DE11522EC3C0075B5B1 /* AppDelegate.h */,
+				CAC80DE21522EC3C0075B5B1 /* AppDelegate.m */,
+				CAC80DE41522EC3C0075B5B1 /* ViewController.h */,
+				CAC80DE51522EC3C0075B5B1 /* ViewController.m */,
+				CAC80DE71522EC3C0075B5B1 /* ViewController.xib */,
+				CAC80DD91522EC3C0075B5B1 /* Supporting Files */,
+			);
+			path = TouchView;
+			sourceTree = "<group>";
+		};
+		CAC80DD91522EC3C0075B5B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC80DDA1522EC3C0075B5B1 /* TouchView-Info.plist */,
+				CAC80DDB1522EC3C0075B5B1 /* InfoPlist.strings */,
+				CAC80DDE1522EC3C0075B5B1 /* main.m */,
+				CAC80DE01522EC3C0075B5B1 /* TouchView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC80DCD1522EC3C0075B5B1 /* TouchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC80DEC1522EC3C0075B5B1 /* Build configuration list for PBXNativeTarget "TouchView" */;
+			buildPhases = (
+				CAC80DCA1522EC3C0075B5B1 /* Sources */,
+				CAC80DCB1522EC3C0075B5B1 /* Frameworks */,
+				CAC80DCC1522EC3C0075B5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchView;
+			productName = TouchView;
+			productReference = CAC80DCE1522EC3C0075B5B1 /* TouchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC80DC51522EC3C0075B5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CAC80DC81522EC3C0075B5B1 /* Build configuration list for PBXProject "TouchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAC80DC31522EC3C0075B5B1;
+			productRefGroup = CAC80DCF1522EC3C0075B5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC80DCD1522EC3C0075B5B1 /* TouchView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC80DCC1522EC3C0075B5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC80DDD1522EC3C0075B5B1 /* InfoPlist.strings in Resources */,
+				CAC80DE91522EC3C0075B5B1 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC80DCA1522EC3C0075B5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC80DDF1522EC3C0075B5B1 /* main.m in Sources */,
+				CAC80DE31522EC3C0075B5B1 /* AppDelegate.m in Sources */,
+				CAC80DE61522EC3C0075B5B1 /* ViewController.m in Sources */,
+				CAC80DF11522EC780075B5B1 /* TouchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAC80DDB1522EC3C0075B5B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC80DDC1522EC3C0075B5B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAC80DE71522EC3C0075B5B1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC80DE81522EC3C0075B5B1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAC80DEA1522EC3C0075B5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAC80DEB1522EC3C0075B5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC80DED1522EC3C0075B5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchView/TouchView-Prefix.pch";
+				INFOPLIST_FILE = "TouchView/TouchView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAC80DEE1522EC3C0075B5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchView/TouchView-Prefix.pch";
+				INFOPLIST_FILE = "TouchView/TouchView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC80DC81522EC3C0075B5B1 /* Build configuration list for PBXProject "TouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC80DEA1522EC3C0075B5B1 /* Debug */,
+				CAC80DEB1522EC3C0075B5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC80DEC1522EC3C0075B5B1 /* Build configuration list for PBXNativeTarget "TouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC80DED1522EC3C0075B5B1 /* Debug */,
+				CAC80DEE1522EC3C0075B5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC80DC51522EC3C0075B5B1 /* Project object */;
+}

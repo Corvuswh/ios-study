@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA066B2E14FC7AA80099FDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA066B2D14FC7AA80099FDC2 /* UIKit.framework */; };
+		CA066B3014FC7AA80099FDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA066B2F14FC7AA80099FDC2 /* Foundation.framework */; };
+		CA066B3214FC7AA80099FDC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA066B3114FC7AA80099FDC2 /* CoreGraphics.framework */; };
+		CA066B3814FC7AA80099FDC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA066B3614FC7AA80099FDC2 /* InfoPlist.strings */; };
+		CA066B3A14FC7AA80099FDC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA066B3914FC7AA80099FDC2 /* main.m */; };
+		CA066B3E14FC7AA80099FDC2 /* BargainSaleViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA066B3D14FC7AA80099FDC2 /* BargainSaleViewControllerAppDelegate.m */; };
+		CA066B4114FC7AA80099FDC2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA066B3F14FC7AA80099FDC2 /* MainWindow.xib */; };
+		CA066B4414FC7AA80099FDC2 /* BargainSaleViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA066B4314FC7AA80099FDC2 /* BargainSaleViewControllerViewController.m */; };
+		CA066B4714FC7AA80099FDC2 /* BargainSaleViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA066B4514FC7AA80099FDC2 /* BargainSaleViewControllerViewController.xib */; };
+		CA066B5214FC7D8D0099FDC2 /* 3d.png in Resources */ = {isa = PBXBuildFile; fileRef = CA066B5114FC7D8D0099FDC2 /* 3d.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA066B2914FC7AA80099FDC2 /* BargainSaleViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BargainSaleViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA066B2D14FC7AA80099FDC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA066B2F14FC7AA80099FDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA066B3114FC7AA80099FDC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA066B3514FC7AA80099FDC2 /* BargainSaleViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BargainSaleViewController-Info.plist"; sourceTree = "<group>"; };
+		CA066B3714FC7AA80099FDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA066B3914FC7AA80099FDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA066B3B14FC7AA80099FDC2 /* BargainSaleViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BargainSaleViewController-Prefix.pch"; sourceTree = "<group>"; };
+		CA066B3C14FC7AA80099FDC2 /* BargainSaleViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BargainSaleViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		CA066B3D14FC7AA80099FDC2 /* BargainSaleViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BargainSaleViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		CA066B4014FC7AA80099FDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CA066B4214FC7AA80099FDC2 /* BargainSaleViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BargainSaleViewControllerViewController.h; sourceTree = "<group>"; };
+		CA066B4314FC7AA80099FDC2 /* BargainSaleViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BargainSaleViewControllerViewController.m; sourceTree = "<group>"; };
+		CA066B4614FC7AA80099FDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BargainSaleViewControllerViewController.xib; sourceTree = "<group>"; };
+		CA066B5114FC7D8D0099FDC2 /* 3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA066B2614FC7AA80099FDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA066B2E14FC7AA80099FDC2 /* UIKit.framework in Frameworks */,
+				CA066B3014FC7AA80099FDC2 /* Foundation.framework in Frameworks */,
+				CA066B3214FC7AA80099FDC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA066B1E14FC7AA80099FDC2 = {
+			isa = PBXGroup;
+			children = (
+				CA066B5114FC7D8D0099FDC2 /* 3d.png */,
+				CA066B3314FC7AA80099FDC2 /* BargainSaleViewController */,
+				CA066B2C14FC7AA80099FDC2 /* Frameworks */,
+				CA066B2A14FC7AA80099FDC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA066B2A14FC7AA80099FDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA066B2914FC7AA80099FDC2 /* BargainSaleViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA066B2C14FC7AA80099FDC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA066B2D14FC7AA80099FDC2 /* UIKit.framework */,
+				CA066B2F14FC7AA80099FDC2 /* Foundation.framework */,
+				CA066B3114FC7AA80099FDC2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA066B3314FC7AA80099FDC2 /* BargainSaleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA066B3C14FC7AA80099FDC2 /* BargainSaleViewControllerAppDelegate.h */,
+				CA066B3D14FC7AA80099FDC2 /* BargainSaleViewControllerAppDelegate.m */,
+				CA066B3F14FC7AA80099FDC2 /* MainWindow.xib */,
+				CA066B4214FC7AA80099FDC2 /* BargainSaleViewControllerViewController.h */,
+				CA066B4314FC7AA80099FDC2 /* BargainSaleViewControllerViewController.m */,
+				CA066B4514FC7AA80099FDC2 /* BargainSaleViewControllerViewController.xib */,
+				CA066B3414FC7AA80099FDC2 /* Supporting Files */,
+			);
+			path = BargainSaleViewController;
+			sourceTree = "<group>";
+		};
+		CA066B3414FC7AA80099FDC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA066B3514FC7AA80099FDC2 /* BargainSaleViewController-Info.plist */,
+				CA066B3614FC7AA80099FDC2 /* InfoPlist.strings */,
+				CA066B3914FC7AA80099FDC2 /* main.m */,
+				CA066B3B14FC7AA80099FDC2 /* BargainSaleViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA066B2814FC7AA80099FDC2 /* BargainSaleViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA066B4A14FC7AA80099FDC2 /* Build configuration list for PBXNativeTarget "BargainSaleViewController" */;
+			buildPhases = (
+				CA066B2514FC7AA80099FDC2 /* Sources */,
+				CA066B2614FC7AA80099FDC2 /* Frameworks */,
+				CA066B2714FC7AA80099FDC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BargainSaleViewController;
+			productName = BargainSaleViewController;
+			productReference = CA066B2914FC7AA80099FDC2 /* BargainSaleViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA066B2014FC7AA80099FDC2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CA066B2314FC7AA80099FDC2 /* Build configuration list for PBXProject "BargainSaleViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA066B1E14FC7AA80099FDC2;
+			productRefGroup = CA066B2A14FC7AA80099FDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA066B2814FC7AA80099FDC2 /* BargainSaleViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA066B2714FC7AA80099FDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA066B3814FC7AA80099FDC2 /* InfoPlist.strings in Resources */,
+				CA066B4114FC7AA80099FDC2 /* MainWindow.xib in Resources */,
+				CA066B4714FC7AA80099FDC2 /* BargainSaleViewControllerViewController.xib in Resources */,
+				CA066B5214FC7D8D0099FDC2 /* 3d.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA066B2514FC7AA80099FDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA066B3A14FC7AA80099FDC2 /* main.m in Sources */,
+				CA066B3E14FC7AA80099FDC2 /* BargainSaleViewControllerAppDelegate.m in Sources */,
+				CA066B4414FC7AA80099FDC2 /* BargainSaleViewControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA066B3614FC7AA80099FDC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA066B3714FC7AA80099FDC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA066B3F14FC7AA80099FDC2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA066B4014FC7AA80099FDC2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CA066B4514FC7AA80099FDC2 /* BargainSaleViewControllerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA066B4614FC7AA80099FDC2 /* en */,
+			);
+			name = BargainSaleViewControllerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA066B4814FC7AA80099FDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA066B4914FC7AA80099FDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA066B4B14FC7AA80099FDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BargainSaleViewController/BargainSaleViewController-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "BargainSaleViewController/BargainSaleViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA066B4C14FC7AA80099FDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BargainSaleViewController/BargainSaleViewController-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "BargainSaleViewController/BargainSaleViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA066B2314FC7AA80099FDC2 /* Build configuration list for PBXProject "BargainSaleViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA066B4814FC7AA80099FDC2 /* Debug */,
+				CA066B4914FC7AA80099FDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA066B4A14FC7AA80099FDC2 /* Build configuration list for PBXNativeTarget "BargainSaleViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA066B4B14FC7AA80099FDC2 /* Debug */,
+				CA066B4C14FC7AA80099FDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA066B2014FC7AA80099FDC2 /* Project object */;
+}
